@@ -61,7 +61,7 @@ p {
 a {
     color: white;
 }
-.left-align {
+.Discord {
     text-align: left; /* Выравнивание текста по левому краю */
     display: inline-block; /* Делает блок инлайновым для центрирования */
     }
