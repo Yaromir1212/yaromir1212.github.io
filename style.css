@@ -104,3 +104,9 @@ a {
       .carousel-control.next {
         right: 10px;
       }
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px; /* Отступ от края экрана, если необходимо */
+}
