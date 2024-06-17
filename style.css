@@ -1,0 +1,106 @@
+.right-align {
+    float: right;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    }
+    
+    .full-screen-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Масштабирует изображение, чтобы оно покрывало весь экран */
+    }
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+        overflow: hidden;
+        background-color: #333;
+        }
+        
+        .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+        
+        .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+        
+        .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+        }
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+h5 {
+    color: white;
+}
+p {
+    color: white;
+}
+a {
+    color: white;
+}
+.left-align {
+    text-align: left; /* Выравнивание текста по левому краю */
+    display: inline-block; /* Делает блок инлайновым для центрирования */
+    }
+    .carousel {
+        position: relative;
+        width: 80%;
+        max-width: 600px;
+        overflow: hidden;
+        border: 2px solid #ddd;
+        border-radius: 10px;
+      }
+      
+      .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+      
+      .carousel-item {
+        min-width: 100%;
+        transition: opacity 0.5s ease-in-out;
+      }
+      
+      .carousel-control {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 50%;
+      }
+      
+      .carousel-control.prev {
+        left: 10px;
+      }
+      
+      .carousel-control.next {
+        right: 10px;
+      }
